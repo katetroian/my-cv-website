@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Kate Troian/Marani" name="author">
+
+
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link href="static/assets/favicon.ico" rel="icon">
+  <link rel="icon" sizes="180x180" href="static/assets/favicon.ico">  
+
+  <title>Home page</title>  
+
+<style>
+  @import url("static/main.3f6952e4.css");
+  .hero-full-container{
+	width: auto;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	background-image: url("static/assets/images/mountain2-lg_2x.webp");
+	background-image: -webkit-image-set(url("static/assets/images/mountain2-lg_1x.webp") 1x, url("static/assets/images/mountain2-lg_2x.webp") 2x);
+	background-image: image-set(url("static/assets/images/mountain2-lg_1x.png") 1x, url("static/assets/images/mountain2-lg_2x.png") 2x);
+	}
+  @media (max-width: 900px){
+    .hero-full-container{
+      background-image: url("static/assets/images/mountain2-md_2x.webp");
+      background-image: -webkit-image-set(url("static/assets/images/mountain2-md_1x.webp") 1x, url("static/assets/images/mountain2-md_2x.webp") 2x);
+      background-image: image-set(url("static/assets/images/mountain2-md_1x.png") 1x, url("static/assets/images/mountain2-md_2x.png") 2x);
+      }}
+  @media (max-width: 600px){
+    .hero-full-container{
+      background-image: url("static/assets/images/mountain2-sm_2x.webp");
+      background-image: -webkit-image-set(url("static/assets/images/mountain2-sm_1x.webp") 1x, url("static/assets/images/mountain2-sm_2x.webp") 2x);
+      background-image: image-set(url("static/assets/images/mountain2-sm_1x.png") 1x, url("static/assets/images/mountain2-sm_2x.png") 2x);
+    }}
+  @media (max-width: 600px){
+  	h1{
+  	  font-size: 50px;
+  	}}
+  div#navbar-collapse a{ 
+    color: #FFFFFF;
+    font-size:16px;
+    }
+  div#navbar-collapse a:hover { 
+    color: #000000;
+    }
+</style> 
+
+</head>
+
+<body class="minimal">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html" title="">01 : Home</a></li>
+          <li><a href="experience.html" title="">02 : Experience</a></li>
+          <li><a href="about.html" title="">03 : About me</a></li>
+          <li><a href="contact.html" title="">04 : Contact</a></li>
+        </ul>
+
+
+      </div> 
+    </div>
+  </nav>
+</header>
+
+  <div class="hero-full-container background-image-container white-text-container" style="background-image">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper">
+            <div class="text-content" id="hello-mess">
+              <h1>Hello,<br>
+                <span id="typed-strings">
+                  <span>I'm Kate Troian</span>
+                  <span>Professional Slacker</span>
+                  <span>Working as a Freelancer</span>
+                </span>
+                <span id="typed"></span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     type();
+     movingBackgroundImage();
+  });
+</script>
+
+
+<script src="static/main.70a66962.js"></script></body>
+
+
+</html>
+
+ <!-- style="background-image: url('./static/assets/images/mountain2.webp')" -->

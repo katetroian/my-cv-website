@@ -1,0 +1,48 @@
+@media (max-width: 3840px){
+    #container {
+      padding: 5.5rem;
+      margin-top: -6em;
+      }}
+  @media (max-width: 1439px){
+    #container {
+      padding: 4rem;
+      margin-top: -5.9em;
+      }}
+  @media (max-width: 1025px){
+    #container {
+      padding: 4rem;
+      margin-top: -5em;
+      }}
+  @media (max-width: 899px){
+    #container {
+      padding: 4rem;
+      margin-top: -3.7em;
+      }}
+  @media (max-width: 599px){
+    #container {
+      padding: 1.6rem;
+      margin-top: -1.5em;
+      }}
+  @media (min-width: 2000px){
+    .section-container .container{
+      min-height: 1350px;
+    }}
+  @media (min-width: 4000px){
+    .section-container .container{
+      min-height: 1750px;
+    }}
+  .card-container{
+    font-size: 14px;
+  }
+  .quote{
+    font-size: 16px;
+    text-align: center;
+  }
+  .quote-sign{
+    font-size: 12px;
+    text-align: right;
+  }
+  .img-responsive{
+    width: 1140px;
+    margin-top: 2em;
+  }

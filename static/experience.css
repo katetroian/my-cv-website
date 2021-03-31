@@ -1,0 +1,31 @@
+#carousel{
+    margin-top: -5em;
+  }
+  .experience{
+    font-size: 18px;
+  }
+  .carousel-inner{
+    font-size: 14px;
+    margin-top: 2em;
+  }
+  @media (min-width: 800px){
+    .carousel-inner{
+      min-height: 600px;
+    }}
+  @media (height: 1366px){
+    .section-container .container{
+      min-height: 1170px;
+    }}
+  @media (min-width: 1500px){
+    .section-container .container{
+      min-height: 1350px;
+    }}
+  @media (min-width: 2000px){
+    .section-container .container{
+      min-height: 1750px;
+    }}
+  .img-responsive{
+    max-width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;

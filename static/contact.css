@@ -1,0 +1,45 @@
+  .fa-icon{
+    font-size: 22px;
+  }
+  @media (max-width: 1024px){
+    .section-container .container{
+      min-height: 595px;
+    }}
+  @media (width: 1366px){
+    .section-container .container{
+      min-height: 800px;
+    }}
+  @media (height: 1366px){
+    .section-container .container{
+      min-height: 1180px;
+    }}
+  @media (max-width: 812px){
+    .section-container .container{
+      min-height: 850px;
+    }}
+  @media (max-width: 400px){
+    .section-container .container{
+      min-height: 635px;
+    }}
+  @media (max-width: 1399px){
+    .section-container .container{
+      min-height: 600px;
+    }}
+  @media (min-width: 1400px){
+    .section-container .container{
+      min-height: 570px;
+    }}
+  @media (min-width: 1500px){
+    .section-container .container{
+      min-height: 650px;
+    }}
+  @media (min-width: 2000px){
+    .section-container .container{
+      min-height: 1070px;
+    }}
+  #thank-u-text{
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  
